@@ -1,0 +1,13 @@
+C:\Users\YASSER\Desktop\projects\c#\mastersheet\mastersheet\bin\Debug\mastersheet.exe.config
+C:\Users\YASSER\Desktop\projects\c#\mastersheet\mastersheet\bin\Debug\mastersheet.exe
+C:\Users\YASSER\Desktop\projects\c#\mastersheet\mastersheet\bin\Debug\mastersheet.pdb
+C:\Users\YASSER\Desktop\projects\c#\mastersheet\mastersheet\obj\Debug\mastersheet.csproj.AssemblyReference.cache
+C:\Users\YASSER\Desktop\projects\c#\mastersheet\mastersheet\obj\Debug\mastersheet.csproj.SuggestedBindingRedirects.cache
+C:\Users\YASSER\Desktop\projects\c#\mastersheet\mastersheet\obj\Debug\mastersheet.Form1.resources
+C:\Users\YASSER\Desktop\projects\c#\mastersheet\mastersheet\obj\Debug\mastersheet.Properties.Resources.resources
+C:\Users\YASSER\Desktop\projects\c#\mastersheet\mastersheet\obj\Debug\mastersheet.csproj.GenerateResource.cache
+C:\Users\YASSER\Desktop\projects\c#\mastersheet\mastersheet\obj\Debug\mastersheet.csproj.CoreCompileInputs.cache
+C:\Users\YASSER\Desktop\projects\c#\mastersheet\mastersheet\obj\Debug\mastersheet.exe
+C:\Users\YASSER\Desktop\projects\c#\mastersheet\mastersheet\obj\Debug\mastersheet.pdb
+C:\Users\YASSER\Desktop\projects\c#\mastersheet\mastersheet\bin\Debug\MySql.Data.dll
+C:\Users\YASSER\Desktop\projects\c#\mastersheet\mastersheet\obj\Debug\mastersheet.csproj.CopyComplete
