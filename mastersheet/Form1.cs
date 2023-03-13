@@ -11,11 +11,9 @@ using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
-
-
 namespace mastersheet
 {
-    public partial class Form11 : Form
+    public partial class Form1 : Form
     {
         MySqlConnection con = new MySqlConnection("datasource=localhost;port=3306;Initial Catalog='mastersheet';username=root;password=");
         MySqlCommand cmd;
@@ -27,8 +25,6 @@ namespace mastersheet
             DisplayData();
 
         }
-
-
 
         private void Form1_Load(object sender, EventArgs e)
         {
