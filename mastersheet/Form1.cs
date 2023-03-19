@@ -13,15 +13,10 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace mastersheet
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public partial class Form12 : Form
-=======
+
+    
     public partial class Form1 : Form
->>>>>>> parent of a7a0505 (form1)
-=======
-    public partial class Form1 : Form
->>>>>>> parent of a7a0505 (form1)
+
     {
         MySqlConnection con = new MySqlConnection("datasource=localhost;port=3306;Initial Catalog='mastersheet';username=root;password=");
         MySqlCommand cmd;
