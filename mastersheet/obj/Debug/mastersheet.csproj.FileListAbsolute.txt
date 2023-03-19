@@ -37,3 +37,4 @@ C:\Users\YASSER\Documents\GitHub\master-sheet\mastersheet\obj\Debug\mastersheet.
 C:\Users\YASSER\Documents\GitHub\master-sheet\mastersheet\obj\Debug\mastersheet.csproj.CopyComplete
 C:\Users\YASSER\Documents\GitHub\master-sheet\mastersheet\obj\Debug\mastersheet.exe
 C:\Users\YASSER\Documents\GitHub\master-sheet\mastersheet\obj\Debug\mastersheet.pdb
+C:\Users\YASSER\Documents\GitHub\master-sheet\mastersheet\obj\Debug\mastersheet.Form11.resources
