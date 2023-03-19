@@ -14,7 +14,11 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 namespace mastersheet
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public partial class Form12 : Form
+=======
+    public partial class Form1 : Form
+>>>>>>> parent of a7a0505 (form1)
 =======
     public partial class Form1 : Form
 >>>>>>> parent of a7a0505 (form1)
