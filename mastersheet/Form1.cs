@@ -15,7 +15,7 @@ namespace mastersheet
 {
 
     
-    public partial class Form1 : Form
+    public partial class Form11 : Form
 
     {
         MySqlConnection con = new MySqlConnection("datasource=localhost;port=3306;Initial Catalog='mastersheet';username=root;password=");
