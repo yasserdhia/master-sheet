@@ -1,6 +1,6 @@
 ﻿namespace mastersheet
 {
-    partial class Form1
+    partial class Form11234
     {
         /// <summary>
         /// Required designer variable.
