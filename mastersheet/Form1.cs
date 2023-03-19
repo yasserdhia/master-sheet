@@ -14,14 +14,14 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 namespace mastersheet
 {
 
-    
-    public partial class Form1123 : Form
+
+    public partial class Form1 : Form
 
     {
         MySqlConnection con = new MySqlConnection("datasource=localhost;port=3306;Initial Catalog='mastersheet';username=root;password=");
         MySqlCommand cmd;
         MySqlDataAdapter adapt;
-        
+
         public Form1()
         {
             InitializeComponent();
@@ -64,8 +64,8 @@ namespace mastersheet
 
         private void dataGridView1_Paint(object sender, PaintEventArgs e)
         {
-            string[] monthes = { "", "الماده الاولى /  4" , "" };
-            
+            string[] monthes = { "", "الماده الاولى /  4", "" };
+
             for (int j = 0; j < 6;)
             {
                 Rectangle r1 = this.dataGridView1.GetCellDisplayRectangle(j, -1, true);
@@ -128,7 +128,7 @@ namespace mastersheet
         private void btnInsert_Click(object sender, EventArgs e)
         {
 
-        // SUM The Total
+            // SUM The Total
             // say+dor1
             if (Say.Text != "" && Dor1.Text != "" && Dor2.Text == "" && Dor3.Text == "")
             {
@@ -239,7 +239,7 @@ namespace mastersheet
             Dor2.Text = "";
             Dor3.Text = "";
             txtTotal.Text = "";
-            
+
 
         }
 
@@ -259,11 +259,13 @@ namespace mastersheet
                 if (Convert.ToInt32(Say.Text) + Convert.ToInt32(Dor2.Text) >= 60)
                 {
                     txtTotal.Text = ((Convert.ToInt32(Say.Text) + Convert.ToInt32(Dor2.Text)) - 10).ToString();
-                }else if ((Convert.ToInt32(Say.Text) + Convert.ToInt32(Dor2.Text) <= 60 && (Convert.ToInt32(Say.Text) + Convert.ToInt32(Dor2.Text) >= 50)))
+                }
+                else if ((Convert.ToInt32(Say.Text) + Convert.ToInt32(Dor2.Text) <= 60 && (Convert.ToInt32(Say.Text) + Convert.ToInt32(Dor2.Text) >= 50)))
                 {
                     int x = 50;
                     txtTotal.Text = Convert.ToInt32(x).ToString();
-                }else if (Convert.ToInt32(Say.Text) + Convert.ToInt32(Dor2.Text) <= 49)
+                }
+                else if (Convert.ToInt32(Say.Text) + Convert.ToInt32(Dor2.Text) <= 49)
                 {
                     txtTotal.Text = (Convert.ToInt32(Say.Text) + Convert.ToInt32(Dor2.Text)).ToString();
 
@@ -275,9 +277,9 @@ namespace mastersheet
             {
 
                 // txtTotal.Text = (Convert.ToInt32(Say.Text) + Convert.ToInt32(Dor3.Text)).ToString();
-                
-                    txtTotal.Text = ((Convert.ToInt32(Say.Text) + Convert.ToInt32(Dor3.Text)) - 10).ToString();
-            
+
+                txtTotal.Text = ((Convert.ToInt32(Say.Text) + Convert.ToInt32(Dor3.Text)) - 10).ToString();
+
             }
 
             // add Des+total
@@ -384,7 +386,7 @@ namespace mastersheet
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button1_Click(object sender, EventArgs e)
